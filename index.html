@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arte Conceitual</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -17,27 +19,65 @@
     </ul>
 
 
-    <h1>Arte Conceitual</h1>
+    <h1 class="center">Arte Conceitual</h1>
+    <div class="container">
+        <div>
+            <img class="br-50 wh" src="assets/img/mictorio.jpg" alt="Foto do Mictório Duchamp">
+        </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci inventore expedita, 
-       quasi quibusdam magnam dolorum corporis laudantium repellendus earum similique aliquid incidunt,
-       nemo eaque dignissimos, accusantium possimus reiciendis debitis ipsa.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam assumenda 
-        numquam commodi quos, sapiente, harum quo odio doloribus aperiam iste perferendis hic impedit, p
-        rovident aliquam! Quo aut eveniet repudiandae!
-    </p>
+        <div class="p-30">
+            <p class="justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci inventore expedita, 
+                quasi quibusdam magnam dolorum corporis laudantium repellendus earum similique aliquid incidunt,
+                nemo eaque dignissimos, accusantium possimus reiciendis debitis ipsa.
+             </p>
+             <p class="justify">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam assumenda 
+                 numquam commodi quos, sapiente, harum quo odio doloribus aperiam iste perferendis hic impedit, p
+                 rovident aliquam! Quo aut eveniet repudiandae!
+             </p>
+        </div>
+         
+    </div>
+    
 
-    <img src="assets/img/mictorio.jpg" alt="Foto do Mictório Duchamp">
+    
 
-    <h2>Vídeo explicando o ponta pé inicial da Arte Conceitual:</h2>
+    <h2 class="center">Vídeo explicando o ponta pé inicial da Arte Conceitual:</h2>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ENoB2b1Nd1Y" 
+    <div class="container mb-50"> 
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/ENoB2b1Nd1Y" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
-    </iframe>
+        </iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/gabi.lopes.98" target="_blank">
+                <img class="tm-social p-30" src="./assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/gabriela-lopes-a30b36201/" target="_blank">
+                <img class="tm-social p-30" src="./assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="./assets/img/logotipo-do-instagram.png" alt="Logo do Instagram">
+            </a>
+            
+        </div>
+
+
+        <p class="center">
+            Todos os direitos reservados: Gabi Lopes &copy;
+        </p>
+       
+    </footer>
 
 </body>
 </html>
+
+<!-- Unidades de medida no css
+px -> unidade absoluta
+% -> unidade relativa
+viewUnits -> vw altura/ vh largura -> unidade relativa (vai de 0 a 100) 
+rem -> do tamanho da letra M maiuscula do navegador do usuario-->
